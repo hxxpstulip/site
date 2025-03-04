@@ -1,5 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+    server: {
+      host: '0.0.0.0', // Make the server accessible on all network interfaces
+      port: 3000,      // Set your desired port (default is 3000)
+    }
+  });

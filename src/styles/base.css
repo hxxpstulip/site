@@ -1,4 +1,10 @@
+#tulip {
 
+    position: absolute;
+    bottom: 150px;
+    left: 30%
+
+}
 
 .sun{
     background-color: black;
